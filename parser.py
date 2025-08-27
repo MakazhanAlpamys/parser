@@ -1,14 +1,3 @@
-#!/usr/bin/env python3
-"""
-Engineering Toolbox Formula Parser
-Парсер для извлечения инженерных формул с сайта engineeringtoolbox.com
-
-Этот скрипт обходит сайт engineeringtoolbox.com и извлекает формулы, их описания,
-переменные и другую информацию в структурированном формате JSON.
-
-Автор: Makazhan Alpamys, 2025
-"""
-
 import requests
 from bs4 import BeautifulSoup
 import json
